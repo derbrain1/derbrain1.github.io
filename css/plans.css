@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+
+main {
+    background-color: #e4e9f2!important;
+    
+}
+
+html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+main {
+    display: flex;
+    flex-shrink: 1; 
+    
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+
+}
+.card {
+    display: none;
+}
+
+.my-table table {
+    
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+}
+
+
+.my-table td:nth-child(n+2),
+.my-table th:nth-child(n+2) {
+    width: 50px;
+    text-align: center;
+}
+
+
+.my-table td:first-child,
+.my-table th:first-child {
+    width: 500px;
+    height: 70px;
+    text-align: left;
+}
+
+
+.my-table th, .my-table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.card {
+    margin-bottom: 20px; 
+    border: 1px solid black;
+    width: 100%; 
+    max-width: 360px;
+    box-sizing: border-box; 
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+
+.card th,td {
+    text-align: center;
+    padding: 10px; 
+    height: 50px; 
+    word-wrap: break-word;
+    width: 200px; 
+}
+
+
+.mobile-table {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px; 
+    justify-content: center; 
+}

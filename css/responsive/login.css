@@ -1,0 +1,14 @@
+@media (max-width: 768px) {
+    .auth-box {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .auth-box h2 {
+        font-size: 20px;
+    }
+
+    .btn {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    
+}
+
+.container-fluid {
+    width: 100%;
+    background-color: white;
+}
+
+.container{
+    margin-bottom: 20px;
+    
+
+}
+header, footer {
+    font-family: 'Roboto', sans-serif;
+
+}
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer {
+    padding: 10px;
+}
+header > .container {
+    padding: 20px 20px;
+    margin-left: 30px;
+}
+
+header .container .menu a{
+    font-size: 2em;
+    text-decoration: none;
+    margin: 0 40px;
+    color: #000;
+}
+
+.hide-menu {
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute!important;
+    top: 60px; 
+    right: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: right;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 100!important;
+}
+
+header .container .login a{
+    font-size: 2.5em;
+    text-decoration: none;
+    margin: 0 75px;
+    font-weight: bold;
+    color: #000;
+}
+
+header .container .login a:hover,
+header .container .menu a:hover
+{
+    color: blue;
+}
+
+header .burgerIcon {
+    display: none;
+    width: 50px!important;
+    cursor: pointer;
+}
+
+footer .container  img{
+    width: 80px;
+    align-items: center;
+}
+footer .d-flex {
+    display: flex;
+    justify-content: center;
+    gap: 70px;    
+    margin-top: 20px;
+}
+footer {
+    background-color: #432C2C!important;
+    
+
+}
+button {
+    width: 10em;
+    height: 2em;  
+    
+   }
+footer  p{
+    text-align: center;
+    color: #8A8888;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+footer .subscribe_email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+input[type="text"] {
+    font-size: 23px;
+    height: 30px;
+    width: 241px;
+}
+footer .subscribe_email .email {
+    text-align: center;
+
+}
+body {
+    width: 100%;
+    font-size: 16px;
+}

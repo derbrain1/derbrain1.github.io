@@ -1,0 +1,66 @@
+@media (max-width: 1004px) {
+    .my-table td:first-child,
+    .my-table th:first-child {
+        width: 300px;
+        height: 50px;
+
+    }
+}
+@media (max-width: 768px) {
+    .my-table {
+        margin: 0 20px;  
+    }
+
+    .my-table td:first-child,
+    .my-table th:first-child {
+        width: auto; / 
+    }
+
+    .my-table td:nth-child(n+2),
+    .my-table th:nth-child(n+2) {
+        width: 40px;  
+    }
+}
+ 
+@media (max-width: 652px) {
+    .my-table table {
+        display: none;  
+    }
+    .card {
+        display: flex;
+        width: 100%; 
+        max-width: 360px; 
+    }
+    .my-table {
+        display: block;
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+    .my-table .card {
+        background: #fff;
+        border: 1px solid #ccc;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    .my-table .card h4 {
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+    .my-table .card p {
+        margin: 5px 0;
+        display: flex;
+         
+    }
+}
+@media (max-width: 652px) {
+    .card th,td {
+       
+        width: 130px;  
+    }
+    .card {
+
+        width: 260px; 
+
+    }
+}

@@ -1,0 +1,247 @@
+@media screen and (max-width: 1370px){
+
+    .block3 .column {
+        justify-content: space-around;
+        gap: 40px;
+
+    }
+    .block2 .column {
+        justify-content: space-around;
+        gap: 40px;
+
+    }
+    .process-item {
+        width: 320px; 
+        margin-bottom: 40px; 
+        gap: 30px;
+        
+    }
+
+    .feature-item{
+        width: 303px; 
+        height: 477px;
+        margin-bottom: 40px;
+        
+    }
+    .block3 .feature-item img{
+        width: 251px; 
+        height: 221px;
+        
+        
+    }
+    
+    .pricing-item {
+        width: 323px;
+        justify-content: space-between;
+        margin-bottom: 40px; 
+    }
+    .column.d-flex > .pricing-item:nth-child(2n) {
+        margin-left: 250px; 
+    }
+    .block2 .column.d-flex {
+        justify-content: space-around;
+        gap: 50px;
+    }
+    .block1 .right img{
+        width: 600px;
+        height: 300px;
+        
+    
+    }
+    .block1 .right img{
+        width: 100%;
+        
+    }
+
+}
+
+@media screen and (max-width: 1165px){
+    .block1 .right img{
+        width: 450px;
+        height: 250px;
+        
+    }
+    .block1 .left {
+        font-size: 1.5em;
+    }
+}
+@media screen and (max-width: 1112px){
+    .column.d-flex > .pricing-item:nth-child(2n) {
+        margin-left: 60px; 
+    }
+    
+    
+}
+
+@media screen and (max-width: 963px){
+    .block1 .right img{
+        width: 350px;
+        height: 200px;
+        
+    }
+}
+
+@media screen and (max-width: 895px){
+    
+    .pricing-item {
+        width: 250px; 
+    }
+}
+
+@media screen and (max-width: 879px){
+    .block2 .subtitle {
+        text-align: center;
+        padding: 10;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 835px){
+    .feature-item{
+        width: 318px; 
+        height: 470px;
+        margin-bottom: 40px; 
+        
+    }
+    .block3 .subtitle {
+        text-align: center;
+        padding: 10;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 815px){
+    .block1.d-flex {
+        display: flex;
+        flex-wrap: wrap; 
+        align-items: flex-start; 
+    }
+    .block1 .left {
+        width: 100%; 
+        margin-bottom: 20px;
+        margin-right: 75px;
+    }
+    .block1 .right {
+        width: 90%; 
+        text-align: center!important; 
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    
+    
+}
+
+@media screen and (max-width: 750px){
+    
+    .pricing-item {
+        width: 304px;
+        height: 427px;
+    } 
+    .block4 .column.d-flex {
+        display: flex;
+        flex-wrap: wrap;
+        
+        justify-content: center; 
+    }
+    .column.d-flex > .pricing-item:nth-child(2n) {
+        margin-left: 0; 
+    }
+    .description {
+        font-size: 1.75em;
+
+    }
+    .block4 .subtitle {
+        text-align: center;
+        padding: 10;
+        margin-left: 0px;
+    }
+    
+}
+@media screen and (max-width: 603px){
+    
+    .column {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .subtitle {
+        margin-left: 50px;
+    }
+    .block1 .left {
+        font-size: 1em;
+    }
+}
+@media screen and (max-width: 504px){
+
+    .block3 .column.d-flex {
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: center; 
+    }
+    .column {
+        margin-left: 10px!important;
+        margin-right: 10px!important;
+    }
+    .subtitle {
+        margin-left: 10px;
+    }
+    .block1 .left {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    
+  
+    .block1 .right img {
+        width: 221px;
+        height: 139px;
+    }
+    
+    .block2 .column.d-flex {
+        display: flex;
+       
+        flex-wrap: wrap; 
+        justify-content: center; 
+    }
+    .process-item p{
+        font-size: 1em;
+    }
+    
+    
+}
+@media screen and (max-width: 389px){
+    .description {
+        font-size: 1.3em!important;
+    }
+    .pricing-item h3{
+        font-size: 1em;
+    }
+    .pricing-item p{
+        font-size: 0.75em;
+    } 
+    .feature-item {
+        width: 228px;
+    }
+    .feature-item p{
+        font-size: 1.25em;
+    } 
+
+    .block3 .feature-item img {
+        width: 192px;
+        height: 169px;
+    }
+    .process-item {
+        width: 228px;
+    }
+   
+   
+    .column {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    .pricing-item {
+        width: 228px;
+        height: 311px;
+    }
+}
+
+

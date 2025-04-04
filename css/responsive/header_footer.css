@@ -1,0 +1,99 @@
+/*
+>= 1200
+992-1199
+768 - 991
+576 - 768
+460 - 576
+414 - 460
+375 - 413
+320 - 374
+*/
+
+@media screen and (max-width: 971px){
+
+    header .container .menu a {
+
+        font-size: 1.5em;
+
+    }
+}
+
+@media screen and (max-width: 876px){
+
+    header .container .menu a{
+        margin: 0 10px;
+
+    }
+    header .container .menu{
+        margin-left: 30px;;
+    }
+}
+
+@media screen and (max-width: 768px){
+
+   
+    header .container .login a {
+        font-size: 1.75em;
+
+    }
+    footer .d-flex {
+        gap: 40px;    
+    }
+    footer .subscribe_email {
+        gap: 15px;
+    }
+    footer .container  img{
+        width: 60px;
+    }
+    input[type="text"] {
+        width: 152px;
+    }
+}
+@media screen and (max-width: 689px){
+    header .container .login a {
+        margin-left: 10px;
+
+    }
+}
+@media screen and (max-width: 633px){
+
+
+    header .container .menu a,
+    header .container .login a
+    {
+
+        display: none;
+
+    }
+    .hide-menu {
+        display: flex;
+    }
+    
+    header .burgerIcon {
+        display: inline-block;
+        margin-right: 50px;
+    }
+}
+
+@media screen and (max-width: 460px){
+
+
+    footer .d-flex {
+        gap: 10px;    
+    }
+    footer .subscribe_email {
+        
+
+        flex-wrap: wrap;
+        margin-top: 5px;
+    }
+    footer .container  img{
+        width: 50px;
+    }
+    footer .email{
+        width: 100%;
+    }
+    input[type="text"] {
+        width: 152px;
+    }
+}
